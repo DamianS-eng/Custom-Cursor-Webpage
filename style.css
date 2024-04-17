@@ -19,13 +19,14 @@ canvas {
   margin: 2rem auto;
   border: 1px solid #d3d3d3;
   background-color: #f1f1f1;
-  position: relative;
 }
-#customCursor {
-  width: 20px;
-  height: 20px;
-  background: red;
-  border: 2px solid black;
-  border-radius: 50%;
-  z-index: 2;
+@media (prefers-color-scheme: dark) {
+  * {
+    background: #111;
+    color: #eee;
+  }
+  canvas {
+    background-color: #0e0e0e;
+    border-color: #2c2c2c;
+  }
 }
