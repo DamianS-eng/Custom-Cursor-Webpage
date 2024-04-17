@@ -1,0 +1,31 @@
+:root {
+  
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  height: calc(100svh - 1rem);
+  display: grid;
+  place-items: center;
+}
+p {
+  text-align: center;
+}
+canvas {
+  display: block;
+  margin: 2rem auto;
+  border: 1px solid #d3d3d3;
+  background-color: #f1f1f1;
+  position: relative;
+}
+#customCursor {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border: 2px solid black;
+  border-radius: 50%;
+  z-index: 2;
+}
